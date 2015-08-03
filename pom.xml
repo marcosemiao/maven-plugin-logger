@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<parent>
+		<groupId>com.github.marcosemiao.maven.maven-plugin-logger</groupId>
+		<artifactId>parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>parent/pom.xml</relativePath>
+	</parent>
+
+	<groupId>com.github.marcosemiao.maven.maven-plugin-logger</groupId>
+	<artifactId>maven-plugin-logger</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+
+	<packaging>pom</packaging>
+
+	<name>Maven Plugin Logger</name>
+
+	<scm>
+		<connection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</connection>
+		<developerConnection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</developerConnection>
+		<url>https://github.com/marcosemiao/maven-plugin-logger</url>
+		<tag>HEAD</tag>
+	</scm>
+	
+	<modules>
+		<module>parent</module>
+		<module>maven-plugin-logger-api</module>
+		<module>maven-plugin-logger-slf4j</module>
+	</modules>
+</project>
