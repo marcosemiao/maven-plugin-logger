@@ -3,19 +3,19 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<parent>
-		<groupId>com.github.marcosemiao.maven.plugins.logger</groupId>
+		<groupId>com.github.marcosemiao.maven.logger</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.github.marcosemiao.maven.plugins.logger</groupId>
-	<artifactId>maven-plugin-logger</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<groupId>com.github.marcosemiao.maven.logger</groupId>
+	<artifactId>maven-plugin-logger-root</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
-	<name>Maven Plugin Logger</name>
+	<name>Maven Plugin Logger Root</name>
 
 	<scm>
 		<connection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</connection>
@@ -26,7 +26,7 @@
 	
 	<modules>
 		<module>parent</module>
-		<module>maven-plugin-logger-api</module>
+		<module>maven-plugin-logger</module>
 		<module>maven-plugin-logger-slf4j</module>
 	</modules>
 </project>

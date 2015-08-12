@@ -59,11 +59,11 @@ public abstract class AbstractLoggerMojo extends AbstractMojo {
 		final MojoLogger singleton = iterator.next();
 
 		if (iterator.hasNext()) {
-		    throw new ServiceConfigurationError("Plusieurs implémentations de MojoLogger trouvées");
+		    throw new ServiceConfigurationError("Too many MojoLogger implementation found");
 		}
 		return singleton;
 	    } catch (final Exception e) {
-		throw new ServiceConfigurationError("Aucune implémentation de MojoLogger trouvée", e);
+		throw new ServiceConfigurationError("MojoLogger implementation not found", e);
 	    }
 	}
     }

@@ -2,9 +2,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.marcosemiao.maven.plugins.logger</groupId>
+	<groupId>com.github.marcosemiao.maven.logger</groupId>
 	<artifactId>parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -47,7 +47,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<project.build.java.version>1.6</project.build.java.version>
+		<maven.compiler.source>1.6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
 
 
@@ -56,7 +57,7 @@
 			<dependency>
 				<groupId>com.github.marcosemiao.serviceloader</groupId>
 				<artifactId>serviceloader-processor</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.slf4j</groupId>
@@ -79,8 +80,6 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.3</version>
 					<configuration>
-						<source>${project.build.java.version}</source>
-						<target>${project.build.java.version}</target>
 						<showDeprecation>true</showDeprecation>
 						<optimize>true</optimize>
 					</configuration>
