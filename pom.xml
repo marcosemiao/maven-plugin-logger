@@ -17,6 +17,10 @@
 
 	<name>Maven Plugin Logger Root</name>
 
+	<properties>
+		<maven.deploy.skip>true</maven.deploy.skip>
+	</properties>
+	
 	<scm>
 		<connection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</connection>
 		<developerConnection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</developerConnection>
