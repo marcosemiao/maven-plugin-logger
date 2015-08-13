@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>com.github.marcosemiao.maven.logger</groupId>
-	<artifactId>maven-plugin-logger-root</artifactId>
+	<artifactId>root</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>pom</packaging>

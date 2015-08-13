@@ -20,7 +20,7 @@ import org.apache.maven.plugin.logging.Log;
 import org.slf4j.impl.StaticLoggerBinder;
 
 import fr.ms.maven.plugin.MojoLogger;
-import fr.ms.util.ServiceProvider;
+import fr.ms.util.ServiceLoader;
 
 /**
  *
@@ -30,7 +30,7 @@ import fr.ms.util.ServiceProvider;
  * @author Marco Semiao
  *
  */
-@ServiceProvider
+@ServiceLoader
 public class Slf4jMojoLogger implements MojoLogger {
 
     private final static StaticLoggerBinder staticLoggerBinder = StaticLoggerBinder.getSingleton();
