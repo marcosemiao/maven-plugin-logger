@@ -3,13 +3,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.github.marcosemiao.maven.logger</groupId>
+		<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 		<artifactId>parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.github.marcosemiao.maven.logger</groupId>
+	<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 	<artifactId>maven-plugin-logger-slf4j</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
@@ -19,7 +19,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.github.marcosemiao.maven.logger</groupId>
+			<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 			<artifactId>maven-plugin-logger</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
@@ -38,7 +38,7 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.github.marcosemiao.serviceloader</groupId>
+			<groupId>com.github.marcosemiao</groupId>
 			<artifactId>serviceloader-processor</artifactId>
 			<scope>provided</scope>
 		</dependency>
