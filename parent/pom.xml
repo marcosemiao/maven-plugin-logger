@@ -3,7 +3,7 @@
 
 	<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -48,6 +48,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
+		<release.tagNameFormat>maven-plugin-logger-@{project.version}</release.tagNameFormat>
 	</properties>
 
 
@@ -135,6 +136,7 @@
 					<configuration>
 						<autoVersionSubmodules>true</autoVersionSubmodules>
 						<useReleaseProfile>false</useReleaseProfile>
+						<tagNameFormat>${release.tagNameFormat}</tagNameFormat>
 					</configuration>
 				</plugin>
 
