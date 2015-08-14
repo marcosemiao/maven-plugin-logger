@@ -20,7 +20,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
-			<artifactId>maven-plugin-logger</artifactId>
+			<artifactId>maven-plugin-logger-api</artifactId>
 			<version>${project.version}</version>
 			<scope>provided</scope>
 		</dependency>
