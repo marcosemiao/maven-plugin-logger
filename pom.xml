@@ -4,13 +4,13 @@
 	<parent>
 		<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 		<artifactId>parent</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2-SNAPSHOT</version>
 		<relativePath>parent/pom.xml</relativePath>
 	</parent>
 
 	<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 	<artifactId>maven-plugin-logger</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -25,7 +25,7 @@
 		<connection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</connection>
 		<developerConnection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</developerConnection>
 		<url>https://github.com/marcosemiao/maven-plugin-logger</url>
-		<tag>maven-plugin-logger-0.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<modules>
