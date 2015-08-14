@@ -18,6 +18,7 @@
 	<name>Maven Plugin Logger Root</name>
 
 	<properties>
+		<maven.install.skip>true</maven.install.skip>
 		<maven.deploy.skip>true</maven.deploy.skip>
 	</properties>
 	
