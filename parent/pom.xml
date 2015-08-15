@@ -3,7 +3,7 @@
 
 	<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 
 	<packaging>pom</packaging>
 
@@ -32,7 +32,7 @@
 		<connection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</connection>
 		<developerConnection>scm:git:git@github.com:marcosemiao/maven-plugin-logger.git</developerConnection>
 		<url>git@github.com:marcosemiao/maven-plugin-logger.git</url>
-		<tag>HEAD</tag>
+		<tag>maven-plugin-logger-0.0.1</tag>
 	</scm>
 
 	<distributionManagement>
