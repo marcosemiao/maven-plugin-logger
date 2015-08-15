@@ -3,11 +3,13 @@
 
 	<groupId>com.github.marcosemiao.maven.plugin.logger</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
 	<name>Maven Plugin Logger Parent</name>
+
+	<description>Maven Plugin Logger is a Maven Plugin Api with specific Logger</description>
 
 	<url>https://github.com/marcosemiao/maven-plugin-logger</url>
 
