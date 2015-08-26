@@ -43,10 +43,6 @@ public class StaticLoggerBinder implements LoggerFactoryBinder {
      */
     private static final MavenLoggerFactory loggerFactory = new MavenLoggerFactory();
 
-    /**
-     * Constructeur Privé il est impossible d'instancer cette classe sans passer
-     * par la methode singleton qui crée une instance unique
-     */
     private StaticLoggerBinder() {
     }
 
@@ -60,28 +56,16 @@ public class StaticLoggerBinder implements LoggerFactoryBinder {
 	return singleton;
     }
 
-    /**
-     * @implementation
-     *
-     */
     @Override
     public ILoggerFactory getLoggerFactory() {
 	return loggerFactory;
     }
 
-    /**
-     * @implementation
-     *
-     */
     @Override
     public String getLoggerFactoryClassStr() {
 	return MavenLoggerFactory.class.getName();
     }
 
-    /**
-     * @param mavenLog
-     *            mavenLog:
-     */
     public void setMavenLog(final Log mavenLog) {
 	loggerFactory.setMavenLog(mavenLog);
     }

@@ -35,10 +35,6 @@ public class MavenLoggerFactory implements ILoggerFactory {
      */
     private final MavenLoggerAdapter slf4jLogger = new MavenLoggerAdapter();
 
-    /**
-     * @implementation
-     *
-     */
     @Override
     public Logger getLogger(final String name) {
 	return slf4jLogger;
